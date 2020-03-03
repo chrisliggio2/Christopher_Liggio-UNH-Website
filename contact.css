@@ -1,0 +1,55 @@
+/* CSS Document */
+
+body{
+	margin: 0;
+}
+.banner-home{
+	background-image: url("../images/unh1.jpg");
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding-top: 30px;
+}
+.banner-home h1{
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 2em;
+	margin-top: 0;
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	background-color: lightgray;
+	display: block;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	margin-bottom: 5px
+}
+nav ul li a:hover{
+	background-color: #1A4283;
+	color: #FFFFFF;
+}
+nav ul{
+	list-style: none;
+	padding-left: 0;
+}
+footer{
+	text-align: center;
+	padding: 10px;
+	background-color: lightgray;
+}
+
+
+
+
+
+@media screen and (min-width:450px) {
+	nav ul{
+		display:flex;
+	}
+	nav ul li{
+		flex:1;
+		margin: 5px;
+	}
+}
